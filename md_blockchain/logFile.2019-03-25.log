@@ -1,0 +1,333 @@
+1595 [main] INFO  c.m.b.MdBlockchainApplicationTests - Starting MdBlockchainApplicationTests on DESKTOP-S57DKC1 with PID 11032 (started by zhangyan in E:\java\blockchian\md_blockchain)
+1600 [main] INFO  c.m.b.MdBlockchainApplicationTests - No active profile set, falling back to default profiles: default
+1655 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37313c65: startup date [Mon Mar 25 13:09:32 CST 2019]; root of context hierarchy
+2487 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+4626 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0d4f834] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+5676 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+5702 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+5832 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+5835 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+5838 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+5947 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+6092 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+6102 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+6126 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+6793 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+6818 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: message
+6919 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: sync
+7042 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+9926 [main] ERROR c.m.b.socket.client.ClientStarter - ��������md_blockchain_manager���񣬲�����appId�����ԣ�ֻ�кϷ���������Ա���������÷���
+1385 [main] INFO  c.m.b.MdBlockchainApplication - Starting MdBlockchainApplication on DESKTOP-S57DKC1 with PID 12948 (E:\java\blockchian\md_blockchain\target\classes started by zhangyan in E:\java\blockchian\md_blockchain)
+1395 [main] INFO  c.m.b.MdBlockchainApplication - The following profiles are active: local
+1468 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28701274: startup date [Mon Mar 25 16:16:11 CST 2019]; root of context hierarchy
+1649 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+3118 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90cd6421] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+3758 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+3785 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+3786 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+3951 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3952 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2484 ms
+4118 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+4122 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+4123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+4123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+4123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+4430 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+4442 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+4506 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+4507 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+4508 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+4566 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+4727 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+4739 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+4767 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+5229 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+5281 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+6722 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientStarter': Unsatisfied dependency expressed through field 'singleNode'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Boolean'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [ttur]
+6748 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+6752 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+6793 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+6803 [main] ERROR o.s.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientStarter': Unsatisfied dependency expressed through field 'singleNode'; nested exception is org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Boolean'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [ttur]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.mindata.blockchain.MdBlockchainApplication.main(MdBlockchainApplication.java:14)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Boolean'; nested exception is java.lang.IllegalArgumentException: Invalid boolean value [ttur]
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:77)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:54)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value [ttur]
+	at org.springframework.beans.propertyeditors.CustomBooleanEditor.setAsText(CustomBooleanEditor.java:123)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:470)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:443)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:200)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:126)
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:61)
+	... 23 common frames omitted
+889  [main] INFO  c.m.b.MdBlockchainApplication - Starting MdBlockchainApplication on DESKTOP-S57DKC1 with PID 16068 (E:\java\blockchian\md_blockchain\target\classes started by zhangyan in E:\java\blockchian\md_blockchain)
+896  [main] INFO  c.m.b.MdBlockchainApplication - The following profiles are active: local
+949  [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28701274: startup date [Mon Mar 25 16:16:47 CST 2019]; root of context hierarchy
+1188 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2598 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6696346f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+3012 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+3020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+3033 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+3169 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3169 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2220 ms
+3337 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+3340 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+3341 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+3341 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+3341 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+3663 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3675 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+3744 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+3745 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+3746 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+3799 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+3992 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+4003 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+4025 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+4493 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+4548 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+6158 [main] INFO  c.m.b.c.manager.PermissionManager - 所有的权限信息：{message=[Permission{tableName='message', permissionType=2, publicKey='*', groupId='1'}]}
+6251 [main] WARN  org.tio.server.AioServer - null started, listen on 0.0.0.0:6789
+6655 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/find],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.find(java.lang.String) throws java.lang.Exception
+6656 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/delete],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.delete(java.lang.String) throws java.lang.Exception
+6657 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/check],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.check()
+6657 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/create],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.create(java.lang.String) throws java.lang.Exception
+6658 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/first],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.first()
+6659 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/insert],methods=[POST]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.insert(com.mindata.blockchain.core.requestbody.BlockRequestBody) throws com.mindata.blockchain.common.exception.TrustSDKException
+6659 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/sync],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.sync(org.springframework.data.domain.Pageable)
+6660 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/last],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.last()
+6660 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/sqlite/content],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.content()
+6661 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/sqlite],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.sqlite()
+6661 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/update],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.testUpdate(java.lang.String,java.lang.String) throws java.lang.Exception
+6662 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/instruction],methods=[POST]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.InstructionController.build(com.mindata.blockchain.core.requestbody.InstructionBody) throws java.lang.Exception
+6664 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pairKey/random],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.PairKeyController.generate() throws com.mindata.blockchain.common.exception.TrustSDKException
+6668 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+6669 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+6670 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+6676 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6676 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6853 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+7178 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28701274: startup date [Mon Mar 25 16:16:47 CST 2019]; root of context hierarchy
+7211 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+7224 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7224 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7225 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7269 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7530 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+7540 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+7540 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+7561 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+7603 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+7806 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+7820 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+7825 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+7837 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+7860 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+7866 [main] INFO  c.m.b.MdBlockchainApplication - Started MdBlockchainApplication in 7.655 seconds (JVM running for 8.98)
+8206 [pool-2-thread-1] INFO  c.m.b.socket.client.ClientStarter - 本机IP：192.168.217.1
+8377 [pool-2-thread-1] ERROR c.m.b.socket.client.ClientStarter - 不是合法有效的已注册的客户端
+8385 [Thread-403] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28701274: startup date [Mon Mar 25 16:16:47 CST 2019]; root of context hierarchy
+8388 [Thread-403] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+8394 [Thread-403] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+8436 [Thread-403] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+816  [main] INFO  c.m.b.MdBlockchainApplication - Starting MdBlockchainApplication on DESKTOP-S57DKC1 with PID 9720 (E:\java\blockchian\md_blockchain\target\classes started by zhangyan in E:\java\blockchian\md_blockchain)
+822  [main] INFO  c.m.b.MdBlockchainApplication - No active profile set, falling back to default profiles: default
+1007 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a1153bc: startup date [Mon Mar 25 22:50:25 CST 2019]; root of context hierarchy
+1126 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2748 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c644d36b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+3114 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+3125 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+3126 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+3279 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3280 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2273 ms
+3450 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+3453 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+3454 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+3454 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+3454 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+3953 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+3964 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+4029 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+4030 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+4031 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+4069 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+4259 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+4268 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+4288 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+4734 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+4782 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+7564 [main] INFO  c.m.b.c.manager.PermissionManager - 所有的权限信息：{message=[Permission{tableName='message', permissionType=2, publicKey='*', groupId='1'}]}
+7648 [main] WARN  org.tio.server.AioServer - null started, listen on 0.0.0.0:6789
+8000 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/find],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.find(java.lang.String) throws java.lang.Exception
+8002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/delete],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.delete(java.lang.String) throws java.lang.Exception
+8002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/check],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.check()
+8003 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/create],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.create(java.lang.String) throws java.lang.Exception
+8003 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/first],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.first()
+8003 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/insert],methods=[POST]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.insert(com.mindata.blockchain.core.requestbody.BlockRequestBody) throws com.mindata.blockchain.common.exception.TrustSDKException
+8005 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/sync],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.sync(org.springframework.data.domain.Pageable)
+8006 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/last],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.last()
+8006 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/sqlite/content],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.content()
+8007 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/sqlite],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.sqlite()
+8007 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/block/update],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.BlockController.testUpdate(java.lang.String,java.lang.String) throws java.lang.Exception
+8007 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/instruction],methods=[POST]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.InstructionController.build(com.mindata.blockchain.core.requestbody.InstructionBody) throws java.lang.Exception
+8008 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pairKey/random],methods=[GET]}" onto public com.mindata.blockchain.core.bean.BaseData com.mindata.blockchain.core.controller.PairKeyController.generate() throws com.mindata.blockchain.common.exception.TrustSDKException
+8011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+8011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+8012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+8014 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+8015 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+8154 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+8470 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a1153bc: startup date [Mon Mar 25 22:50:25 CST 2019]; root of context hierarchy
+8515 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+8526 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8526 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8526 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8565 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+8802 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+8815 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+8815 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+8839 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+8885 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+9060 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+9070 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+9077 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+9088 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+9114 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+9122 [main] INFO  c.m.b.MdBlockchainApplication - Started MdBlockchainApplication in 8.937 seconds (JVM running for 10.201)
+9441 [pool-2-thread-1] INFO  c.m.b.socket.client.ClientStarter - 本机IP：192.168.217.1
+9466 [pool-2-thread-1] INFO  c.m.b.socket.client.ClientStarter - 共有2个成员需要连接：[Member{appId='wolf', name='maida', ip='192.168.217.1'}, Member{appId='mingyi', name='mingyi', ip='192.168.1.121'}]
+9478 [pool-2-thread-1] INFO  c.m.b.socket.client.ClientStarter - 开始绑定:192.168.1.121:6789
+9480 [tio-timer-heartbeat1] INFO  org.tio.client.AioClient - [1]: curr:0, closed:0, received:(0p)(0b), handled:0, sent:(0p)(0b)
+9482 [pool-2-thread-1] INFO  c.m.b.socket.client.ClientStarter - 开始绑定:192.168.217.1:6789
+9482 [tio-timer-heartbeat1] INFO  org.tio.client.AioClient - [1]: curr:0, closed:0, received:(0p)(0b), handled:0, sent:(0p)(0b)
+9494 [tio-group-1] INFO  c.m.b.s.s.BlockServerAioListener - onAfterConnected channelContext:192.168.217.1:62094, isConnected:true, isReconnect:false
+9494 [tio-group-2] INFO  o.t.c.ConnectionCompletionHandler - connected to 192.168.217.1:6789
+9495 [tio-group-2] INFO  c.m.b.socket.client.ClientStarter - 连接192.168.217.1:6789成功
+9495 [tio-group-2] INFO  c.m.b.socket.client.ClientStarter - 开始群发信息获取next Block
+9591 [tio-group-4] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+9602 [pool-1-thread-1] INFO  c.m.b.s.h.s.TotalBlockInfoRequestHandler - 收到来自于<wolf>的<请求下一Block>消息，请求者的block hash为：null
+9607 [pool-1-thread-1] INFO  c.m.b.s.h.s.TotalBlockInfoRequestHandler - 回复给<wolf>，我的nextBlock是RpcNextBlockBody{hash='null', prevHash='null'}
+9615 [pool-1-thread-2] INFO  c.m.b.s.h.c.TotalBlockInfoResponseHandler - 收到来自于<wolf>的回复，下一个Block hash为：null
+9615 [pool-1-thread-2] INFO  c.m.b.s.h.c.TotalBlockInfoResponseHandler - 和<wolf>相比，本地已是最新块了
+9616 [tio-group-5] INFO  c.m.b.s.s.BlockServerAioListener - onAfterSent channelContext:192.168.217.1:62094, packet:{"blockSend":false,"body":"eyJhcHBJZCI6IndvbGYiLCJtZXNzYWdlSWQiOiJkOWQzYmEzMS1hYjBhLTRmNTQtOTczNS0wMmRjMDExNDYxYzUiLCJyZXNwb25zZU1zZ0lkIjoiOTBkMWRjNWUtODMwYy00OWYzLWI3ZGMtNWViNzkyNmNmMDFiIiwidGltZSI6MTU1MzUyNTQzNDU3NH0=","byteCount":0,"fromCluster":false,"id":3,"sslEncrypted":false,"synSeq":0,"type":-5}, isSentSuccess:true
+11092 [pool-2-thread-1] INFO  c.m.b.c.manager.PermissionManager - 所有的权限信息：{message=[Permission{tableName='message', permissionType=2, publicKey='*', groupId='1'}]}
+21811 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21812 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21835 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+21911 [tio-group-6] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+21912 [pool-1-thread-1] INFO  c.m.b.s.h.s.TotalBlockInfoRequestHandler - 收到来自于<wolf>的<请求下一Block>消息，请求者的block hash为：null
+21913 [pool-1-thread-1] INFO  c.m.b.s.h.s.TotalBlockInfoRequestHandler - 回复给<wolf>，我的nextBlock是RpcNextBlockBody{hash='null', prevHash='null'}
+21916 [tio-group-9] INFO  c.m.b.s.s.BlockServerAioListener - onAfterSent channelContext:192.168.217.1:62094, packet:{"blockSend":false,"body":"eyJhcHBJZCI6IndvbGYiLCJtZXNzYWdlSWQiOiIzNzM4YzUxMC1kN2UxLTQ3ZjctODcyMC1lMzgyYTg1YTNhNjEiLCJyZXNwb25zZU1zZ0lkIjoiNTUyNjI0ZDAtZDBjMi00NjVkLWI5MDgtOGIyYjhiYjAxOGFmIiwidGltZSI6MTU1MzUyNTQ0Njg4NH0=","byteCount":0,"fromCluster":false,"id":7,"sslEncrypted":false,"synSeq":0,"type":-5}, isSentSuccess:true
+21919 [pool-1-thread-2] INFO  c.m.b.s.h.c.TotalBlockInfoResponseHandler - 收到来自于<wolf>的回复，下一个Block hash为：null
+21919 [pool-1-thread-2] INFO  c.m.b.s.h.c.TotalBlockInfoResponseHandler - 和<wolf>相比，本地已是最新块了
+28075 [tio-group-11] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+28093 [pool-1-thread-1] INFO  c.m.b.s.h.s.GenerateBlockRequestHandler - 收到来自于<wolf><请求生成Block>消息，block信息为[Block{blockHeader=BlockHeader{version=1, hashPreviousBlock='null', hashMerkleRoot='8df87981571b61b78ba30dfed3c4c2a0e07736c7902e4a91d0b35db14663accb', publicKey='A8WLqHTjcT/FQ2IWhIePNShUEcdCzu5dG+XrQU8OMu54', number=1, timeStamp=1553525453037, nonce=0, hashList=[d277332928a4ec0f6aa04dedf71a557487f7fef6ec06a9b0180f1caaaa06e960]}, blockBody=BlockBody{instructions=[Instruction{json='{"content":"1"}', timeStamp=1553525452012, publicKey='A8WLqHTjcT/FQ2IWhIePNShUEcdCzu5dG+XrQU8OMu54', sign='MEUCIQCHl+E4WY3vbuVlNvhgivgNPxnTkjyCodQc2dvsth1NCQIgWL5wOD/egWxIzmZEIpKKaHn45fXwdyZ1d7rmVoVLG0M=', hash='d277332928a4ec0f6aa04dedf71a557487f7fef6ec06a9b0180f1caaaa06e960'}]}, hash='710cdba273ecfac11dd55a7f1dc783901ebb54f89245b77b13a2948f6b6e56b4'}]
+28112 [pool-1-thread-1] INFO  c.m.b.s.h.s.GenerateBlockRequestHandler - 校验结果:RpcCheckBlockBody{code=0, message='OK'}
+28253 [tio-group-13] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+28255 [pool-1-thread-1] INFO  c.m.b.s.h.server.PbftVoteHandler - 收到来自于<wolf><投票>消息，投票信息为[VoteMsg{voteType=2, hash='710cdba273ecfac11dd55a7f1dc783901ebb54f89245b77b13a2948f6b6e56b4', number=1, appId='wolf', agree=true}]
+28263 [pool-1-thread-1] INFO  c.m.b.s.pbft.queue.PrepareMsgQueue - Prepare阶段完毕，是否进入commit的标志是：true
+28265 [tio-group-16] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+28266 [pool-1-thread-1] INFO  c.m.b.s.h.server.PbftVoteHandler - 收到来自于<wolf><投票>消息，投票信息为[VoteMsg{voteType=3, hash='710cdba273ecfac11dd55a7f1dc783901ebb54f89245b77b13a2948f6b6e56b4', number=1, appId='wolf', agree=true}]
+28268 [pool-1-thread-1] INFO  c.m.b.s.pbft.queue.CommitMsgQueue - 已经commit为true的数量为:1
+28271 [pool-1-thread-1] INFO  c.m.b.core.manager.DbBlockGenerator - 开始生成本地block
+28273 [pool-1-thread-1] INFO  c.m.b.core.manager.DbBlockGenerator - 本地已生成新的Block
+28274 [pool-1-thread-1] INFO  c.m.b.core.sqlite.SqliteManager - 开始执行导入区块到Sqlite操作
+28298 [pool-1-thread-1] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+28405 [pool-1-thread-1] INFO  c.m.b.core.sqlite.SqliteManager - 导入完毕
+28406 [tio-group-17] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+28409 [pool-1-thread-1] INFO  c.m.b.s.h.s.GenerateCompleteRequestHandler - 收到来自于<wolf><生成了新的Block>消息，block hash为[710cdba273ecfac11dd55a7f1dc783901ebb54f89245b77b13a2948f6b6e56b4]
+30502 [tio-group-19] ERROR o.t.c.ConnectionCompletionHandler - java.io.IOException: 信号灯超时时间已到
+
+java.io.IOException: 信号灯超时时间已到
+
+	at sun.nio.ch.Iocp.translateErrorToIOException(Iocp.java:309)
+	at sun.nio.ch.Iocp.access$700(Iocp.java:46)
+	at sun.nio.ch.Iocp$EventHandlerTask.run(Iocp.java:399)
+	at java.lang.Thread.run(Thread.java:748)
+30504 [tio-group-19] INFO  org.tio.core.ChannelContext - java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.AsynchronousSocketChannelImpl.getLocalAddress(AsynchronousSocketChannelImpl.java:449)
+	at org.tio.client.ClientChannelContext.createClientNode(ClientChannelContext.java:45)
+	at org.tio.core.ChannelContext.setAsynchronousSocketChannel(ChannelContext.java:407)
+	at org.tio.core.ChannelContext.init(ChannelContext.java:289)
+	at org.tio.core.ChannelContext.<init>(ChannelContext.java:109)
+	at org.tio.client.ClientChannelContext.<init>(ClientChannelContext.java:30)
+	at org.tio.client.ConnectionCompletionHandler.handler(ConnectionCompletionHandler.java:110)
+	at org.tio.client.ConnectionCompletionHandler.failed(ConnectionCompletionHandler.java:46)
+	at org.tio.client.ConnectionCompletionHandler.failed(ConnectionCompletionHandler.java:24)
+	at sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:128)
+	at sun.nio.ch.Invoker$2.run(Invoker.java:218)
+	at sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+30505 [tio-group-19] INFO  c.m.b.socket.client.ClientStarter - 连接192.168.1.121:6789失败
+34667 [tio-group-20] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+34667 [pool-1-thread-1] INFO  c.m.b.s.h.s.GenerateBlockRequestHandler - 收到来自于<wolf><请求生成Block>消息，block信息为[Block{blockHeader=BlockHeader{version=1, hashPreviousBlock='710cdba273ecfac11dd55a7f1dc783901ebb54f89245b77b13a2948f6b6e56b4', hashMerkleRoot='0038297500c61a39dbe43e347de94d081d1b457edaa93b294a9125639bab75ca', publicKey='A8WLqHTjcT/FQ2IWhIePNShUEcdCzu5dG+XrQU8OMu54', number=2, timeStamp=1553525459636, nonce=0, hashList=[62e82e5af476577170f4d05f4697c2ff8f049869ce8aec81c5a8e7ffaf329330]}, blockBody=BlockBody{instructions=[Instruction{json='{"content":"2"}', timeStamp=1553525459635, publicKey='A8WLqHTjcT/FQ2IWhIePNShUEcdCzu5dG+XrQU8OMu54', sign='MEQCICgQzI50qRgvtp6t1kPkOP6ipiUUoaFluYSv7CPW2WktAiBj5YMDYr79l4Ege1CR1rzOgEiynVq6dIG4TkGkYIGtpg==', hash='62e82e5af476577170f4d05f4697c2ff8f049869ce8aec81c5a8e7ffaf329330'}]}, hash='ee652012ce78d707edc4546916e6ff3d9a4d06edb295346cc9fca2de48dd8c65'}]
+34670 [pool-1-thread-1] INFO  c.m.b.s.h.s.GenerateBlockRequestHandler - 校验结果:RpcCheckBlockBody{code=0, message='OK'}
+34784 [tio-group-22] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+34784 [pool-1-thread-1] INFO  c.m.b.s.h.server.PbftVoteHandler - 收到来自于<wolf><投票>消息，投票信息为[VoteMsg{voteType=2, hash='ee652012ce78d707edc4546916e6ff3d9a4d06edb295346cc9fca2de48dd8c65', number=2, appId='wolf', agree=true}]
+34784 [pool-1-thread-1] INFO  c.m.b.s.pbft.queue.PrepareMsgQueue - Prepare阶段完毕，是否进入commit的标志是：true
+34785 [tio-group-24] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+34786 [pool-1-thread-1] INFO  c.m.b.s.h.server.PbftVoteHandler - 收到来自于<wolf><投票>消息，投票信息为[VoteMsg{voteType=3, hash='ee652012ce78d707edc4546916e6ff3d9a4d06edb295346cc9fca2de48dd8c65', number=2, appId='wolf', agree=true}]
+34786 [pool-1-thread-1] INFO  c.m.b.s.pbft.queue.CommitMsgQueue - 已经commit为true的数量为:1
+34787 [pool-1-thread-1] INFO  c.m.b.core.manager.DbBlockGenerator - 开始生成本地block
+34788 [pool-1-thread-1] INFO  c.m.b.core.manager.DbBlockGenerator - 本地已生成新的Block
+34788 [pool-1-thread-1] INFO  c.m.b.core.sqlite.SqliteManager - 开始执行导入区块到Sqlite操作
+34791 [pool-1-thread-1] INFO  c.m.b.core.sqlite.SqliteManager - 导入完毕
+34792 [tio-group-25] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+34793 [pool-1-thread-1] INFO  c.m.b.s.h.s.GenerateCompleteRequestHandler - 收到来自于<wolf><生成了新的Block>消息，block hash为[ee652012ce78d707edc4546916e6ff3d9a4d06edb295346cc9fca2de48dd8c65]
+37516 [tio-client-reconn-1] ERROR org.tio.client.AioClient - $UNKNOWN:1,重连耗时:1999 ms
+39064 [pool-2-thread-1] INFO  c.m.b.socket.client.ClientStarter - ---------开始心跳包--------
+39065 [tio-group-29] INFO  c.m.b.s.s.BlockServerAioListener - onAfterReceived channelContext:{}, packet:{}, packetSize:{}
+39066 [pool-1-thread-1] INFO  c.m.b.s.h.s.TotalBlockInfoRequestHandler - 收到来自于<wolf>的<请求下一Block>消息，请求者的block hash为："ee652012ce78d707edc4546916e6ff3d9a4d06edb295346cc9fca2de48dd8c65"
+39066 [pool-1-thread-1] INFO  c.m.b.s.h.s.TotalBlockInfoRequestHandler - 回复给<wolf>，我的nextBlock是RpcNextBlockBody{hash='null', prevHash='ee652012ce78d707edc4546916e6ff3d9a4d06edb295346cc9fca2de48dd8c65'}
+39066 [tio-group-31] INFO  c.m.b.s.s.BlockServerAioListener - onAfterSent channelContext:192.168.217.1:62094, packet:{"blockSend":false,"body":"eyJhcHBJZCI6IndvbGYiLCJtZXNzYWdlSWQiOiI5OWRkNzExOS00NzYxLTRlZGEtYTU1Zi02MjJiZDQyZTU4ODAiLCJwcmV2SGFzaCI6ImVlNjUyMDEyY2U3OGQ3MDdlZGM0NTQ2OTE2ZTZmZjNkOWE0ZDA2ZWRiMjk1MzQ2Y2M5ZmNhMmRlNDhkZDhjNjUiLCJyZXNwb25zZU1zZ0lkIjoiZDM1MjNmYTEtZjJkMi00NTJhLTllMWItZDkxODhjM2VjYTBiIiwidGltZSI6MTU1MzUyNTQ2NDAzN30=","byteCount":0,"fromCluster":false,"id":27,"sslEncrypted":false,"synSeq":0,"type":-5}, isSentSuccess:true
+39067 [pool-1-thread-2] INFO  c.m.b.s.h.c.TotalBlockInfoResponseHandler - 收到来自于<wolf>的回复，下一个Block hash为：null
+39067 [pool-1-thread-2] INFO  c.m.b.s.h.c.TotalBlockInfoResponseHandler - 和<wolf>相比，本地已是最新块了
+39481 [tio-timer-heartbeat1] INFO  org.tio.client.AioClient - [1]: curr:1, closed:0, received:(3p)(522b), handled:3, sent:(11p)(3476b)
+39483 [tio-timer-heartbeat1] INFO  org.tio.client.AioClient - [1]: curr:1, closed:0, received:(3p)(522b), handled:3, sent:(11p)(3476b)
+56516 [tio-group-32] ERROR o.t.c.ConnectionCompletionHandler - java.io.IOException: 信号灯超时时间已到
+
+java.io.IOException: 信号灯超时时间已到
+
+	at sun.nio.ch.Iocp.translateErrorToIOException(Iocp.java:309)
+	at sun.nio.ch.Iocp.access$700(Iocp.java:46)
+	at sun.nio.ch.Iocp$EventHandlerTask.run(Iocp.java:399)
+	at java.lang.Thread.run(Thread.java:748)
+56516 [tio-group-32] INFO  c.m.b.socket.client.ClientStarter - 连接192.168.1.121:6789失败
+63518 [tio-client-reconn-2] ERROR org.tio.client.AioClient - $UNKNOWN:1,重连耗时:1999 ms

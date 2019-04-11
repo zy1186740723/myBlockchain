@@ -1,0 +1,175 @@
+2019/03/25-13:09:37.630204 aac RocksDB version: 5.10.3
+2019/03/25-13:09:37.630256 aac Git sha rocksdb_build_git_sha:@ac329cce6e4b482d086cc9c8fa1689914a753a36@
+2019/03/25-13:09:37.630275 aac Compile date Feb 26 2018
+2019/03/25-13:09:37.630291 aac DB SUMMARY
+2019/03/25-13:09:37.630410 aac SST files in ./rocksDB dir, Total Num: 0, files: 
+2019/03/25-13:09:37.630425 aac Write Ahead Log file in ./rocksDB: 
+2019/03/25-13:09:37.630435 aac                         Options.error_if_exists: 0
+2019/03/25-13:09:37.630450 aac                       Options.create_if_missing: 1
+2019/03/25-13:09:37.630460 aac                         Options.paranoid_checks: 1
+2019/03/25-13:09:37.630469 aac                                     Options.env: 000000000128DC10
+2019/03/25-13:09:37.630973 aac                                Options.info_log: 00000000219AF4A0
+2019/03/25-13:09:37.630987 aac                Options.max_file_opening_threads: 16
+2019/03/25-13:09:37.630992 aac                              Options.statistics: 0000000000000000
+2019/03/25-13:09:37.630997 aac                               Options.use_fsync: 0
+2019/03/25-13:09:37.631002 aac                       Options.max_log_file_size: 0
+2019/03/25-13:09:37.631007 aac                  Options.max_manifest_file_size: 18446744073709551615
+2019/03/25-13:09:37.631011 aac                   Options.log_file_time_to_roll: 0
+2019/03/25-13:09:37.631029 aac                       Options.keep_log_file_num: 1000
+2019/03/25-13:09:37.631034 aac                    Options.recycle_log_file_num: 0
+2019/03/25-13:09:37.631039 aac                         Options.allow_fallocate: 1
+2019/03/25-13:09:37.631044 aac                        Options.allow_mmap_reads: 0
+2019/03/25-13:09:37.631048 aac                       Options.allow_mmap_writes: 0
+2019/03/25-13:09:37.631053 aac                        Options.use_direct_reads: 0
+2019/03/25-13:09:37.631058 aac                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/03/25-13:09:37.631063 aac          Options.create_missing_column_families: 0
+2019/03/25-13:09:37.631067 aac                              Options.db_log_dir: 
+2019/03/25-13:09:37.631073 aac                                 Options.wal_dir: ./rocksDB
+2019/03/25-13:09:37.631077 aac                Options.table_cache_numshardbits: 6
+2019/03/25-13:09:37.631082 aac                      Options.max_subcompactions: 1
+2019/03/25-13:09:37.631087 aac                  Options.max_background_flushes: -1
+2019/03/25-13:09:37.631091 aac                         Options.WAL_ttl_seconds: 0
+2019/03/25-13:09:37.631096 aac                       Options.WAL_size_limit_MB: 0
+2019/03/25-13:09:37.631101 aac             Options.manifest_preallocation_size: 4194304
+2019/03/25-13:09:37.631105 aac                     Options.is_fd_close_on_exec: 1
+2019/03/25-13:09:37.631110 aac                   Options.advise_random_on_open: 1
+2019/03/25-13:09:37.631114 aac                    Options.db_write_buffer_size: 0
+2019/03/25-13:09:37.631119 aac                    Options.write_buffer_manager: 00000000219BE1E0
+2019/03/25-13:09:37.631124 aac         Options.access_hint_on_compaction_start: 1
+2019/03/25-13:09:37.631129 aac  Options.new_table_reader_for_compaction_inputs: 0
+2019/03/25-13:09:37.631133 aac           Options.random_access_max_buffer_size: 1048576
+2019/03/25-13:09:37.631138 aac                      Options.use_adaptive_mutex: 0
+2019/03/25-13:09:37.631142 aac                            Options.rate_limiter: 0000000000000000
+2019/03/25-13:09:37.631147 aac     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/03/25-13:09:37.631152 aac                       Options.wal_recovery_mode: 2
+2019/03/25-13:09:37.631156 aac                  Options.enable_thread_tracking: 0
+2019/03/25-13:09:37.631161 aac                  Options.enable_pipelined_write: 0
+2019/03/25-13:09:37.631166 aac         Options.allow_concurrent_memtable_write: 1
+2019/03/25-13:09:37.631170 aac      Options.enable_write_thread_adaptive_yield: 1
+2019/03/25-13:09:37.631175 aac             Options.write_thread_max_yield_usec: 100
+2019/03/25-13:09:37.631179 aac            Options.write_thread_slow_yield_usec: 3
+2019/03/25-13:09:37.631209 aac                               Options.row_cache: None
+2019/03/25-13:09:37.631217 aac                              Options.wal_filter: None
+2019/03/25-13:09:37.631222 aac             Options.avoid_flush_during_recovery: 0
+2019/03/25-13:09:37.631226 aac             Options.allow_ingest_behind: 0
+2019/03/25-13:09:37.631231 aac             Options.preserve_deletes: 0
+2019/03/25-13:09:37.631235 aac             Options.two_write_queues: 0
+2019/03/25-13:09:37.631240 aac             Options.manual_wal_flush: 0
+2019/03/25-13:09:37.631244 aac             Options.max_background_jobs: 2
+2019/03/25-13:09:37.631249 aac             Options.max_background_compactions: -1
+2019/03/25-13:09:37.631253 aac             Options.avoid_flush_during_shutdown: 0
+2019/03/25-13:09:37.631258 aac           Options.writable_file_max_buffer_size: 1048576
+2019/03/25-13:09:37.631263 aac             Options.delayed_write_rate : 16777216
+2019/03/25-13:09:37.631267 aac             Options.max_total_wal_size: 0
+2019/03/25-13:09:37.631272 aac             Options.delete_obsolete_files_period_micros: 21600000000
+2019/03/25-13:09:37.631277 aac                   Options.stats_dump_period_sec: 600
+2019/03/25-13:09:37.631281 aac                          Options.max_open_files: -1
+2019/03/25-13:09:37.631286 aac                          Options.bytes_per_sync: 0
+2019/03/25-13:09:37.631291 aac                      Options.wal_bytes_per_sync: 0
+2019/03/25-13:09:37.631295 aac       Options.compaction_readahead_size: 0
+2019/03/25-13:09:37.631300 aac Compression algorithms supported:
+2019/03/25-13:09:37.631313 aac 	Snappy supported: 0
+2019/03/25-13:09:37.631317 aac 	Zlib supported: 0
+2019/03/25-13:09:37.631321 aac 	Bzip supported: 0
+2019/03/25-13:09:37.631326 aac 	LZ4 supported: 0
+2019/03/25-13:09:37.631329 aac 	ZSTDNotFinal supported: 0
+2019/03/25-13:09:37.631334 aac 	ZSTD supported: 0
+2019/03/25-13:09:37.631361 aac Fast CRC32 supported: Supported on x86
+2019/03/25-13:09:37.632080 aac [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:227] Creating manifest 1 
+2019/03/25-13:09:38.034239 aac [c:\users\aretter\code\rocksdb\db\version_set.cc:2834] Recovering from manifest file: MANIFEST-000001
+2019/03/25-13:09:38.034442 aac [c:\users\aretter\code\rocksdb\db\column_family.cc:431] --------------- Options for column family [default]:
+2019/03/25-13:09:38.034464 aac               Options.comparator: leveldb.BytewiseComparator
+2019/03/25-13:09:38.034471 aac           Options.merge_operator: None
+2019/03/25-13:09:38.034477 aac        Options.compaction_filter: None
+2019/03/25-13:09:38.034483 aac        Options.compaction_filter_factory: None
+2019/03/25-13:09:38.034489 aac         Options.memtable_factory: SkipListFactory
+2019/03/25-13:09:38.034495 aac            Options.table_factory: BlockBasedTable
+2019/03/25-13:09:38.034547 aac            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000001261850)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000001292D70
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+2019/03/25-13:09:38.034555 aac        Options.write_buffer_size: 67108864
+2019/03/25-13:09:38.034560 aac  Options.max_write_buffer_number: 2
+2019/03/25-13:09:38.034574 aac          Options.compression: NoCompression
+2019/03/25-13:09:38.034603 aac                  Options.bottommost_compression: Disabled
+2019/03/25-13:09:38.034654 aac       Options.prefix_extractor: nullptr
+2019/03/25-13:09:38.034664 aac   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/03/25-13:09:38.034671 aac             Options.num_levels: 7
+2019/03/25-13:09:38.034677 aac        Options.min_write_buffer_number_to_merge: 1
+2019/03/25-13:09:38.034682 aac     Options.max_write_buffer_number_to_maintain: 0
+2019/03/25-13:09:38.034688 aac            Options.compression_opts.window_bits: -14
+2019/03/25-13:09:38.034694 aac                  Options.compression_opts.level: -1
+2019/03/25-13:09:38.034699 aac               Options.compression_opts.strategy: 0
+2019/03/25-13:09:38.034705 aac         Options.compression_opts.max_dict_bytes: 0
+2019/03/25-13:09:38.034711 aac      Options.level0_file_num_compaction_trigger: 4
+2019/03/25-13:09:38.034716 aac          Options.level0_slowdown_writes_trigger: 20
+2019/03/25-13:09:38.034722 aac              Options.level0_stop_writes_trigger: 36
+2019/03/25-13:09:38.034728 aac                   Options.target_file_size_base: 67108864
+2019/03/25-13:09:38.034734 aac             Options.target_file_size_multiplier: 1
+2019/03/25-13:09:38.034740 aac                Options.max_bytes_for_level_base: 268435456
+2019/03/25-13:09:38.034748 aac Options.level_compaction_dynamic_level_bytes: 0
+2019/03/25-13:09:38.034754 aac          Options.max_bytes_for_level_multiplier: 10.000000
+2019/03/25-13:09:38.034772 aac Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/03/25-13:09:38.034778 aac Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/03/25-13:09:38.034784 aac Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/03/25-13:09:38.034790 aac Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/03/25-13:09:38.034796 aac Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/03/25-13:09:38.034802 aac Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/03/25-13:09:38.034808 aac Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/03/25-13:09:38.034813 aac       Options.max_sequential_skip_in_iterations: 8
+2019/03/25-13:09:38.034819 aac                    Options.max_compaction_bytes: 1677721600
+2019/03/25-13:09:38.034825 aac                        Options.arena_block_size: 8388608
+2019/03/25-13:09:38.034830 aac   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/03/25-13:09:38.034836 aac   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/03/25-13:09:38.034842 aac       Options.rate_limit_delay_max_milliseconds: 100
+2019/03/25-13:09:38.034848 aac                Options.disable_auto_compactions: 0
+2019/03/25-13:09:38.034856 aac                        Options.compaction_style: kCompactionStyleLevel
+2019/03/25-13:09:38.034863 aac                          Options.compaction_pri: kByCompensatedSize
+2019/03/25-13:09:38.034870 aac Options.compaction_options_universal.size_ratio: 1
+2019/03/25-13:09:38.034876 aac Options.compaction_options_universal.min_merge_width: 2
+2019/03/25-13:09:38.034882 aac Options.compaction_options_universal.max_merge_width: 4294967295
+2019/03/25-13:09:38.034887 aac Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/03/25-13:09:38.034893 aac Options.compaction_options_universal.compression_size_percent: -1
+2019/03/25-13:09:38.034900 aac Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/03/25-13:09:38.034906 aac Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/03/25-13:09:38.034912 aac Options.compaction_options_fifo.allow_compaction: 0
+2019/03/25-13:09:38.034917 aac Options.compaction_options_fifo.ttl: 0
+2019/03/25-13:09:38.034923 aac                   Options.table_properties_collectors: 
+2019/03/25-13:09:38.034930 aac                   Options.inplace_update_support: 0
+2019/03/25-13:09:38.034936 aac                 Options.inplace_update_num_locks: 10000
+2019/03/25-13:09:38.034942 aac               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/03/25-13:09:38.034949 aac   Options.memtable_huge_page_size: 0
+2019/03/25-13:09:38.034955 aac                           Options.bloom_locality: 0
+2019/03/25-13:09:38.034964 aac                    Options.max_successive_merges: 0
+2019/03/25-13:09:38.034971 aac                Options.optimize_filters_for_hits: 0
+2019/03/25-13:09:38.034977 aac                Options.paranoid_file_checks: 0
+2019/03/25-13:09:38.034982 aac                Options.force_consistency_checks: 0
+2019/03/25-13:09:38.034988 aac                Options.report_bg_io_stats: 0
+2019/03/25-13:09:38.037872 aac [c:\users\aretter\code\rocksdb\db\version_set.cc:3100] Recovered from manifest file:./rocksDB/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2019/03/25-13:09:38.037900 aac [c:\users\aretter\code\rocksdb\db\version_set.cc:3108] Column family [default] (ID 0), log number is 0
+2019/03/25-13:09:38.068378 aac [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1165] DB pointer 00000000219D9090

@@ -1,0 +1,20 @@
+spring:
+  jpa:
+    show-sql: false
+    database-platform: com.mindata.blockchain.core.sqlite.config.SQLiteDialect
+    generate-ddl: true
+  profiles:
+    active: ${ENV:local}
+sqlite:
+  dbName: test.db  #本地sqlite的名字
+db:
+  levelDB: false    #在部分Windows机器上rocksDB会报错dll找不到，那么就用levelDB来替代
+  rocksDB: true
+singleNode: false  #如果是单节点测试，改成true
+version: 1
+name: ${NAME:xiaozhang}
+appId: ${APP_ID:wolf}
+managerUrl: ${MANAGER_URL:http://localhost:8888/}
+publicKey: A8WLqHTjcT/FQ2IWhIePNShUEcdCzu5dG+XrQU8OMu54
+privateKey: yScdp6fNgUU+cRUTygvJG4EBhDKmOMRrK4XJ9mKVQJ8=
+singeNode: false  #单节点测试模式
