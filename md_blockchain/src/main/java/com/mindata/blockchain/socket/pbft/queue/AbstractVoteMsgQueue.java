@@ -55,9 +55,10 @@ public abstract class AbstractVoteMsgQueue extends BaseMsgQueue {
         deal(voteMsg, voteMsgs);
     }
 
-    /**
+    /**重要的逻辑：进行区块的排序操作！！
      * 该方法用来确认待push阶段的下一阶段是否已存在已达成共识的Block <p>
-     * 譬如收到了区块5的Prepare的投票信息，那么我是否接受该投票，需要先校验Commit阶段是否已经存在number>=5的投票成功信息
+     * 譬如收到了区块5的Prepare的投票信息，那么我是否接受该投票，
+     * 需要先校验Commit阶段是否已经存在number>=5的投票成功信息
      *
      * @param hash
      *         hash

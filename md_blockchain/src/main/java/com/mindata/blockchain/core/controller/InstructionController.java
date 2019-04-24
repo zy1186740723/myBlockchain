@@ -1,12 +1,14 @@
 package com.mindata.blockchain.core.controller;
 
+import com.mindata.blockchain.block.Block;
 import com.mindata.blockchain.block.Transaction;
 import com.mindata.blockchain.core.bean.BaseData;
 import com.mindata.blockchain.core.bean.ResultGenerator;
+import com.mindata.blockchain.core.requestbody.BlockRequestBody;
+import com.mindata.blockchain.core.requestbody.BlockRequestBodyTx;
 import com.mindata.blockchain.core.requestbody.InstructionBody;
 import com.mindata.blockchain.core.requestbody.TransactionBody;
-import com.mindata.blockchain.core.service.InstructionService;
-import com.mindata.blockchain.core.service.TransactionService;
+import com.mindata.blockchain.core.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
@@ -25,9 +27,15 @@ import java.util.HashMap;
 @RequestMapping("/instruction")
 public class InstructionController {
     @Resource
+    private BlockService blockService;
+    @Resource
     private InstructionService instructionService;
     @Resource
     private TransactionService transactionService;
+    @Resource
+    private addNewBlockService addNewBlockService;
+    @Resource
+    private TestUtilsService testUtilsService;
 
     private Logger logger = LoggerFactory.getLogger(InstructionController.class);
 
@@ -37,8 +45,9 @@ public class InstructionController {
      * @return
      * 用私钥签名后的指令
      */
-    @PostMapping
+    @PostMapping()
     public BaseData build(@RequestBody InstructionBody instructionBody) throws Exception {
+
         if (!instructionService.checkKeyPair(instructionBody)) {
              return ResultGenerator.genFailResult("公私钥不是一对");
         }
@@ -48,33 +57,34 @@ public class InstructionController {
         return ResultGenerator.genSuccessResult(instructionService.build(instructionBody));
     }
 
-    public static int count=0;
-    //public static HashMap<Integer,Transaction> hashMap=new HashMap<>();
-    //public static ArrayList<Transaction> arrayList;
+
     @PostMapping("/transaction")
     public BaseData buildTransacton
             (@RequestBody TransactionBody transactionBody) throws Exception{
-        //HashMap<Integer,>
+        //每个线程开始的时间
+        long ThreadStartTime=System.currentTimeMillis();
         if (!transactionService.checkKeyPair(transactionBody)){
             return ResultGenerator.genFailResult("公钥私钥不是一对");
         }
         if (!transactionService.checkContent(transactionBody)){
             return ResultGenerator.genFailResult("内容有问题");
         }
-
         //构造交易
         Transaction transaction=transactionService.build(transactionBody);
+        logger.info(transaction.toString());
         //返回成功的信息
         BaseData baseData=ResultGenerator.genSuccessResult(transaction);
-//        HashMap<Integer,Transaction> hashMap=new HashMap<>();
-
+        //TODO 多线程处理
+        //synchronized (this)
         ArrayList<Transaction> arrayList=transactionService.countTools(transaction);
-        count++;
+        //每个线程结束的时间
+        long ThreadEndTime=System.currentTimeMillis();
+        //结果的检测流程
         System.out.println(arrayList.size());
-        arrayList.size();
-//        hashMap.size();
-//        logger.info(hashMap.toString());
-        return baseData;
+        logger.info(String.valueOf(arrayList.size()));
+
+
+        return baseData ;
 
     }
 }

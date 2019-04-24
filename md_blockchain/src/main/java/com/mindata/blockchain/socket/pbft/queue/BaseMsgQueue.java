@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 
 /**
  * 各节点互传的投票消息存储队列基类
- *
+ *本质还是一个消息队列
  * @author wuweifeng wrote on 2018/4/25.
  */
 @Component

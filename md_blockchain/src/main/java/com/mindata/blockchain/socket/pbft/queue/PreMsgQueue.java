@@ -47,25 +47,35 @@ public class PreMsgQueue extends BaseMsgQueue {
         if (blockConcurrentHashMap.get(hash) != null) {
             return;
         }
-        //但凡是能进到该push方法的，都是通过基本校验的，但在并发情况下可能会相同number的block都进到投票队列中
-        //需要对新进来的Vote信息的number进行校验，如果在比prepre阶段靠后的阶段中，已经出现了认证OK的同number的vote，则拒绝进入该队列
+        /**
+         * 对于并发处理：高并发时，
+         * 有共识机制算法来控制避免分叉。
+         * 譬如共有1，2，3三个阶段，如果有number为3的
+         * 已经进入第二阶段了，那么新生成number为2的请求会被拒绝。
+         * 这个我已经测试过了，100线程并发生成同一个
+         * number的block，不会发生不同节点生成不同block的情况
+         */
+        //但凡是能进到该push方法的，都是通过基本校验的，
+        // 但在并发情况下可能会相同number的block都进到投票队列中
+        //需要对新进来的Vote信息的number进行校验，如果在比prepre阶段靠后的阶段中，
+        // 已经出现了认证OK的同number的vote，则拒绝进入该队列
         if (prepareMsgQueue.otherConfirm(hash, voteMsg.getNumber())) {
             logger.info("拒绝进入Prepare阶段，hash为" + hash);
             return;
         }
-        // 检测脚本是否正常
-        try {
-            sqliteManager.tryExecute(votePreMsg.getBlock());
-        } catch (Exception e) {
-            // 执行异常
-            logger.info("sql指令预执行失败");
-            return;
-        }
+//        // 检测脚本是否正常
+//        try {
+//            sqliteManager.tryExecute(votePreMsg.getBlock());
+//        } catch (Exception e) {
+//            // 执行异常
+//            logger.info("sql指令预执行失败");
+//            return;
+//        }
 
         //存入Pre集合中
         blockConcurrentHashMap.put(hash, votePreMsg);
 
-        //加入Prepare行列，推送给所有人
+        //加入Prepare队列，推送给所有人
         VoteMsg prepareMsg = new VoteMsg();
         BeanUtil.copyProperties(voteMsg, prepareMsg);
         prepareMsg.setVoteType(VoteType.PREPARE);

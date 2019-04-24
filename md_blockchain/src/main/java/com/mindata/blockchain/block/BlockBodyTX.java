@@ -1,18 +1,18 @@
 package com.mindata.blockchain.block;
 
 import java.util.List;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * 区块body，里面存放交易的数组
- * @author wuweifeng wrote on 2018/2/28.
+ * @Author: zhangyan
+ * @Date: 2019/4/15 15:08
+ * @Version 1.0
  */
-public class BlockBody {
+public class BlockBodyTX {
     private List<Transaction> transactions;
 
     @Override
     public String toString() {
-        return "BlockBody{" +
+        return "BlockBodyTX{" +
                 "transactions=" + transactions +
                 '}';
     }

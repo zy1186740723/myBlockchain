@@ -43,6 +43,7 @@ public class NextBlockQueue {
     
     /**
      * 保存已经通过的区块hash,用于后面校验落地区块
+     * 并发容器newCopyOnWriteArrayList()
      */
     private List<String> wantHashs = Lists.newCopyOnWriteArrayList();
     

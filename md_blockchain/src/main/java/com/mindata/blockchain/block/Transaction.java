@@ -5,7 +5,7 @@ package com.mindata.blockchain.block;
  * @Date: 2019/4/13 11:44
  * @Version 1.0
  */
-public class Transaction extends TransactionBase{
+public class Transaction extends TransactionBase {
 
     /**
      * 新的内容

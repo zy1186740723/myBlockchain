@@ -2,6 +2,7 @@ package com.mindata.blockchain.core.manager;
 
 import com.mindata.blockchain.block.Block;
 import com.mindata.blockchain.block.Instruction;
+import com.mindata.blockchain.block.Transaction;
 import com.mindata.blockchain.common.PermissionType;
 import com.mindata.blockchain.core.bean.Permission;
 import org.slf4j.Logger;
@@ -30,19 +31,19 @@ public class PermissionManager {
      * @return 合法
      */
     public boolean checkPermission(Block block) {
-        List<Instruction> instructions = block.getBlockBody().getInstructions();
-        return checkPermission(instructions);
+        List<Transaction> transactions = block.getBlockBody().getTransactions();
+        return checkPermission(transactions);
     }
 
-    public boolean checkPermission(List<Instruction> instructions) {
-        for (Instruction instruction : instructions) {
-            String publicKey = instruction.getPublicKey();
-            String tableName = instruction.getTable();
-            byte operation = instruction.getOperation();
+    public boolean checkPermission(List<Transaction> transactions) {
+        for (Transaction transaction : transactions) {
+            String publicKey = transaction.getPublicKey();
+            //String tableName = transaction.getTable();
+            byte operation = transaction.getOperation();
             //TODO 这块要优化，循环次数太多，需要精简
-            if (!checkOperation(publicKey, tableName, operation)) {
-                return false;
-            }
+//            if (!checkOperation(publicKey,  operation)) {
+//                return false;
+//            }
         }
         return true;
     }
@@ -59,27 +60,27 @@ public class PermissionManager {
      *         操作
      * @return 有权限true
      */
-    private boolean checkOperation(String publicKey, String tableName, byte operation) {
-        List<Permission> permissionList = PERMISSION_MAP.get(tableName);
+//    private boolean checkOperation(String publicKey,  byte operation) {
+//        List<Permission> permissionList = PERMISSION_MAP.get(tableName);
+//
+//        Set<Byte> userPermissionSet = new HashSet<>();
+//        for (Permission permission : permissionList) {
+//            //如果是不限用户的情况，取到该表的所有公开的权限
+//            if ("*".equals(permission.getPublicKey())) {
+//                userPermissionSet.add(permission.getPermissionType());
+//            } else {
+//                //找到该publicKey的所有权限
+//                if (publicKey.equals(permission.getPublicKey())) {
+//                    userPermissionSet.add(permission.getPermissionType());
+//                }
+//            }
+//        }
 
-        Set<Byte> userPermissionSet = new HashSet<>();
-        for (Permission permission : permissionList) {
-            //如果是不限用户的情况，取到该表的所有公开的权限
-            if ("*".equals(permission.getPublicKey())) {
-                userPermissionSet.add(permission.getPermissionType());
-            } else {
-                //找到该publicKey的所有权限
-                if (publicKey.equals(permission.getPublicKey())) {
-                    userPermissionSet.add(permission.getPermissionType());
-                }
-            }
-        }
-
-        //判断该用户的权限是否包含operation
-        return userPermissionSet.contains(PermissionType.OWNER)
-                || userPermissionSet.contains(PermissionType.ALL)
-                || userPermissionSet.contains(operation);
-    }
+//        //判断该用户的权限是否包含operation
+//        return userPermissionSet.contains(PermissionType.OWNER)
+//                || userPermissionSet.contains(PermissionType.ALL)
+//                || userPermissionSet.contains(operation);
+//    }
 
 
     /**

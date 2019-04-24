@@ -24,7 +24,9 @@ public class DisruptorConfig {
         int bufferSize = 1024;
         Disruptor<BaseEvent> disruptor = new Disruptor<>(eventFactory, bufferSize, producerFactory,
                 ProducerType.SINGLE, new BlockingWaitStrategy());
-        //两个消费者，任何消息都会同时被两个消费者消费，消费者会根据type来判断哪个是该自己处理的
+        //两个消费者，任何消息都会同时被两个消费者消费，
+        // 消费者会根据type来判断哪个是该自己处理的
+        //是pbft进行阶段跳转的关键
         disruptor.handleEventsWith(new DisruptorServerHandler(), new DisruptorClientHandler());
 
         disruptor.start();
