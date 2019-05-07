@@ -34,10 +34,15 @@ public class DisruptorServerConsumer implements MessageConsumer {
     public void receive(BaseEvent baseEvent) throws Exception {
         BlockPacket blockPacket = baseEvent.getBlockPacket();
         Byte type = blockPacket.getType();
+        /**
+         * 定义抽象方法，根据type进行不同的流程，
+         * 将handler抽象出来，依据type执行不用的工作
+         */
         AbstractBlockHandler<?> handler = handlerMap.get(type);
         if (handler == null) {
             return;
         }
+        //先进入抽象类，在由抽象类进行
         handler.handler(blockPacket, baseEvent.getChannelContext());
     }
 }

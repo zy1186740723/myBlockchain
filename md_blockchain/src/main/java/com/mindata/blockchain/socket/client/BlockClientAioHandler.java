@@ -29,6 +29,10 @@ public class BlockClientAioHandler extends AbstractAioHandler implements ClientA
         BlockPacket blockPacket = (BlockPacket) packet;
 
         //使用Disruptor来publish消息。所有收到的消息都进入Disruptor，同BlockServerAioHandler
+        /**
+         * tio网络编程框架与disruptor并发编程框架队列之间的连接
+         * disruptor高效内存消息队列
+         */
         ApplicationContextProvider.getBean(MessageProducer.class).publish(new BaseEvent(blockPacket, channelContext));
     }
 }

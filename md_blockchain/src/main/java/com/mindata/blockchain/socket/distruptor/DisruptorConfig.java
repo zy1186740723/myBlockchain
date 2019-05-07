@@ -27,6 +27,7 @@ public class DisruptorConfig {
         //两个消费者，任何消息都会同时被两个消费者消费，
         // 消费者会根据type来判断哪个是该自己处理的
         //是pbft进行阶段跳转的关键
+        //两个方法并行处理
         disruptor.handleEventsWith(new DisruptorServerHandler(), new DisruptorClientHandler());
 
         disruptor.start();

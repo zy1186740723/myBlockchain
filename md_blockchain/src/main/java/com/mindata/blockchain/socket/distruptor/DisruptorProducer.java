@@ -27,6 +27,7 @@ public class DisruptorProducer implements MessageProducer {
             event.setBlockPacket(baseEvent.getBlockPacket());
             event.setChannelContext(baseEvent.getChannelContext());
         } finally {
+            //进行并行处理
             ringBuffer.publish(sequence);
         }
     }

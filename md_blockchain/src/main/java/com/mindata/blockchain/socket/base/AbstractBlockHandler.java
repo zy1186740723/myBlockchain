@@ -18,6 +18,7 @@ public abstract class AbstractBlockHandler<T extends BaseBody> implements Handle
 
 	public abstract Class<T> bodyClass();
 
+	//进行封装转化的接口
 	@Override
 	public Object handler(BlockPacket packet, ChannelContext channelContext) throws Exception {
 		String jsonStr;
